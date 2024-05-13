@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Managemnet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2> Task Management<img src="images/icon.png"></h2>
+            <div class="row">
+               <input type="text" id ="input-box" placeholder="Add your task"> 
+               <button onclick="addTask()">Add Task</button>
+            </div>
+            <ul id="list-container">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
